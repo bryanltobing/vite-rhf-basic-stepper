@@ -51,6 +51,12 @@ button {
   cursor: pointer;
   transition: border-color var(--hover-transition-time);
 }
+
+button.btn-secondary {
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+}
+
 button:hover {
   border-color: #646cff;
 }

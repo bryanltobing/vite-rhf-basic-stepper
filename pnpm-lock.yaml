@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@hookform/resolvers': ^2.9.7
   '@types/react': ^18.0.17
   '@types/react-dom': ^18.0.6
   '@vitejs/plugin-react': ^2.0.1
@@ -9,11 +10,14 @@ specifiers:
   react-hook-form: ^7.34.2
   typescript: ^4.6.4
   vite: ^3.0.7
+  zod: ^3.18.0
 
 dependencies:
+  '@hookform/resolvers': 2.9.7_react-hook-form@7.34.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hook-form: 7.34.2_react@18.2.0
+  zod: 3.18.0
 
 devDependencies:
   '@types/react': 18.0.17
@@ -299,6 +303,14 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@hookform/resolvers/2.9.7_react-hook-form@7.34.2:
+    resolution: {integrity: sha512-BloehX3MOLwuFEwT4yZnmolPjVmqyn8VsSuodLfazbCIqxBHsQ4qUZsi+bvNNCduRli1AGWFrkDLGD5QoNzsoA==}
+    peerDependencies:
+      react-hook-form: ^7.0.0
+    dependencies:
+      react-hook-form: 7.34.2_react@18.2.0
+    dev: false
 
   /@jridgewell/gen-mapping/0.1.1:
     resolution: {integrity: sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w==}
@@ -896,3 +908,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /zod/3.18.0:
+    resolution: {integrity: sha512-gwTm8RfUCe8l9rDwN5r2A17DkAa8Ez4Yl4yXqc5VqeGaXaJahzYYXbTwvhroZi0SNBqTwh/bKm2N0mpCzuw4bA==}
+    dev: false
